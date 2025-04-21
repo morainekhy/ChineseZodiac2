@@ -111,6 +111,7 @@
         padding: 0 10px;
         text-align: justify;
       }
+
       .see-more-link {
         text-align: center;
       }
@@ -131,54 +132,18 @@
 
   <script>
     const zodiacData = [
-    { name: "Rat",
-  image: "images/rat.png",
-  description: "You are quick-witted and resourceful, always finding clever solutions to challenges. Your adaptability and sharp thinking make you stand out in any situation. Ambitious and charming, you have the drive to succeed, often paving your own path.",
-  link: "https://youtu.be/pRMkM8tDpwY?si=PU6rVR4_XILdmj43" },
-{ name: "Ox",
-  image: "images/ox.png",
-  description: "You embody strength, determination, and reliability. Hardworking and patient, you approach tasks with steady persistence and a deep sense of responsibility. You find value in stability and take pride in being the dependable one others can rely on.",
-  link: "https://youtu.be/63BwiZCfQDg?si=0WZ2bvJAiao9pVVn" },
-{ name: "Tiger",
-  image: "images/tiger.png",
-  description: "Bravery runs through your veins. You charge forward with confidence and are always ready to take on new challenges. Fiercely independent and competitive, you have a natural charisma that draws people to you, driven by an inner fire to achieve greatness.",
-  link: "https://youtu.be/07jHcm956_E?si=gUaOFgMo__1WMWAZ" },
-{ name: "Rabbit",
-  image: "images/rabbit.png",
-  description: "You possess a gentle and graceful spirit, bringing calm to those around you. Your artistic nature and kindness shine through in all your interactions. Intuitive and empathetic, you avoid conflict and find beauty in life's simplest moments.",
-  link: "https://youtu.be/8z5t8Vp6h7o?si=jL_ggAfiHAzn6CEe" },
-{ name: "Dragon",
-  image: "images/dragon.png",
-  description: "Power, ambition, and charisma are your core traits. As a Dragon, you're destined for greatness, with the energy and intelligence to achieve extraordinary things. You naturally command attention and respect, stepping into leadership roles with ease and determination.",
-  link: "https://youtu.be/Sy6WADvz16I?si=3z3A45gNMzCqx9v_" },
-{ name: "Snake",
-  image: "images/snake.png",
-  description: "You are wise and enigmatic, with a calm demeanor that hides a sharp mind. Your intuition is unparalleled, and you navigate life's challenges with grace and subtlety. With a deep understanding of human nature, you value beauty and are drawn to the mysteries of the world.",
-  link: "https://youtu.be/m0gkjounX_Q?si=yThBT94wD-OOUON6" },
-{ name: "Horse",
-  image: "images/horse.png",
-  description: "Energetic, free-spirited, and always full of life—your adventurous nature knows no bounds. You thrive on exploration, constantly seeking new experiences. Quick-thinking and passionate, you charge forward with enthusiasm and are never afraid to embrace change.",
-  link: "https://youtu.be/YzvFv9XwMcA?si=yD_k_8NCdmNtgvV9" },
-{ name: "Goat",
-  image: "images/goat.png",
-  description: "Creativity and compassion define you. You have an artistic soul and a kind heart, always seeking harmony and beauty in the world. Calm and patient, you approach life with a sense of tranquility, nurturing your relationships and fostering peace wherever you go.",
-  link: "https://youtu.be/TjzTC4OBY4Y?si=YGStvrll6cHq6Eg-" },
-{ name: "Monkey",
-  image: "images/monkey.png",
-  description: "Clever and full of energy, you always know how to think outside the box. Your curious nature keeps you exploring new ideas, and your inventive mind can turn any challenge into a fun opportunity. With a quick wit and playful spirit, you're always the one leading the way in finding creative solutions.",
-  link: "https://youtu.be/pxmRIQ3GopQ?si=bw-9eSLZvQYSY3to" },
-{ name: "Rooster",
-  image: "images/rooster.png",
-  description: "Confident and precise, you approach everything with discipline and attention to detail. You take great pride in your work, constantly striving for perfection. With a strong sense of purpose and determination, you’re driven by a desire to succeed and achieve your goals with integrity.",
-  link: "https://youtu.be/W2pfXqwrRiQ?si=1HxflaWnuZZn9lYf" },
-{ name: "Dog",
-  image: "images/dog.png",
-  description: "Loyal and trustworthy, you are always there for those you care about. You have a deep sense of duty and responsibility, often putting others' needs before your own. Your honesty and reliability make you a pillar of support for friends and family, and they know they can always count on you.",
-  link: "https://youtu.be/lfIGBfRcegY?si=cIiJUnHvLevJS6gq" },
-{ name: "Pig",
-  image: "images/pig.png",
-  description: "Generosity and warmth flow naturally from you. You have a kind heart and are always looking to make the world a better place. Honest and sincere, you find joy in the simple pleasures of life, spreading peace and happiness to everyone around you.",
-  link: "https://youtu.be/CDgOrR_GEAc?si=SIwO8SwxpFHBOki3" }
+      { name: "Rat", image: "images/rat.png", description: "You are quick-witted and resourceful...", link: "https://youtu.be/pRMkM8tDpwY?si=PU6rVR4_XILdmj43" },
+      { name: "Ox", image: "images/ox.png", description: "You embody strength, determination, and reliability...", link: "https://youtu.be/63BwiZCfQDg?si=0WZ2bvJAiao9pVVn" },
+      { name: "Tiger", image: "images/tiger.png", description: "Bravery runs through your veins...", link: "https://youtu.be/07jHcm956_E?si=gUaOFgMo__1WMWAZ" },
+      { name: "Rabbit", image: "images/rabbit.png", description: "You possess a gentle and graceful spirit...", link: "https://youtu.be/8z5t8Vp6h7o?si=jL_ggAfiHAzn6CEe" },
+      { name: "Dragon", image: "images/dragon.png", description: "Power, ambition, and charisma are your core traits...", link: "https://youtu.be/Sy6WADvz16I?si=3z3A45gNMzCqx9v_" },
+      { name: "Snake", image: "images/snake.png", description: "You are wise and enigmatic, with a calm demeanor...", link: "https://youtu.be/m0gkjounX_Q?si=yThBT94wD-OOUON6" },
+      { name: "Horse", image: "images/horse.png", description: "Energetic, free-spirited, and always full of life...", link: "https://youtu.be/YzvFv9XwMcA?si=yD_k_8NCdmNtgvV9" },
+      { name: "Goat", image: "images/goat.png", description: "Creativity and compassion define you...", link: "https://youtu.be/TjzTC4OBY4Y?si=YGStvrll6cHq6Eg-" },
+      { name: "Monkey", image: "images/monkey.png", description: "Clever and full of energy...", link: "https://youtu.be/pxmRIQ3GopQ?si=bw-9eSLZvQYSY3to" },
+      { name: "Rooster", image: "images/rooster.png", description: "Confident and precise...", link: "https://youtu.be/W2pfXqwrRiQ?si=1HxflaWnuZZn9lYf" },
+      { name: "Dog", image: "images/dog.png", description: "Loyal and trustworthy...", link: "https://youtu.be/lfIGBfRcegY?si=cIiJUnHvLevJS6gq" },
+      { name: "Pig", image: "images/pig.png", description: "Generosity and warmth flow naturally from you...", link: "https://youtu.be/CDgOrR_GEAc?si=SIwO8SwxpFHBOki3" }
     ];
 
     function findZodiac() {
@@ -194,8 +159,19 @@
         return;
       }
 
-      if (isNaN(year) || year < 1900 || year > 2100 || month < 1 || month > 12 || date < 1 || date > 31) {
-        errorDiv.textContent = "Please enter a valid date and year between 1900 and 2100.";
+      if (isNaN(year) || year < 1900 || year > 2100) {
+        errorDiv.textContent = "Please enter a valid birth year between 1900 and 2100.";
+        resultDiv.style.display = "none";
+        return;
+      }
+
+      const isLeapYear = (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+      const daysInMonth = [31, (isLeapYear ? 29 : 28), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+      if (month < 1 || month > 12 || date < 1 || date > daysInMonth[month - 1]) {
+        errorDiv.textContent = `Invalid date. ${month === 2 ? 
+          (isLeapYear ? "February has 29 days this year." : "February only has 28 days this year.") 
+          : `Please check the number of days in month ${month}.`}`;
         resultDiv.style.display = "none";
         return;
       }
